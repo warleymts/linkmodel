@@ -48,6 +48,14 @@ h5 {
   margin-bottom: 10px;
 }
 
+.footer a {
+  font-size: 12px;
+}
+
 .media-body p {
   margin-top: 16px;
+}
+
+hr {
+  border-top: #fff;
 }
