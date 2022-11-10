@@ -3,18 +3,42 @@
   src: url(./Font/SoDo-Sans-SemiBold.ttf);
 }
 
+@media (max-width: 479px) {
+  .footer {
+    margin-top: 35% !important;
+  }
+}
+
+body {
+  background-color: #faf8ef;
+  padding: 10px;
+}
+
 .rounded img {
   border-radius: 50%;
 }
 
-body {
-  padding: 10px
-}
-
-.media-body { 
+.media-body,
+.mt-4,
+.footer {
   font-family: "sodo sans";
 }
 
-.mt-4 {
-  font-family: "sodo sans";
+h5 {
+  color: #343a40;
+}
+
+.name {
+  color: #343a40;
+}
+
+#email {
+  text-decoration: none;
+  float: right;
+  color: #343a40;
+}
+
+.footer {
+  margin-top: 5% !important;
+  margin-bottom: 10px;
 }
