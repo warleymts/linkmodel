@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "sodo sans";
+  src: url(./Font/SoDo-Sans-SemiBold.ttf);
+}
+
+.rounded img {
+  border-radius: 50%;
+}
+
+body {
+  padding: 10px
+}
+
+.media-body { 
+  font-family: "sodo sans";
+}
+
+.mt-4 {
+  font-family: "sodo sans";
+}
